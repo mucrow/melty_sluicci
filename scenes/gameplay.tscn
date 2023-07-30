@@ -31,163 +31,136 @@ shape = SubResource("RectangleShape2D_drseg")
 [node name="CameraTestEnvironment" type="Node2D" parent="."]
 
 [node name="QuestionMarkBlock" type="Sprite2D" parent="CameraTestEnvironment"]
-y_sort_enabled = true
 texture_filter = 1
 position = Vector2(171, 53)
 texture = ExtResource("3_g4vkf")
 
 [node name="QuestionMarkBlock2" type="Sprite2D" parent="CameraTestEnvironment"]
-y_sort_enabled = true
 texture_filter = 1
 position = Vector2(434, 22)
 texture = ExtResource("3_g4vkf")
 
 [node name="QuestionMarkBlock3" type="Sprite2D" parent="CameraTestEnvironment"]
-y_sort_enabled = true
 texture_filter = 1
 position = Vector2(561, 204)
 texture = ExtResource("3_g4vkf")
 
 [node name="QuestionMarkBlock4" type="Sprite2D" parent="CameraTestEnvironment"]
-y_sort_enabled = true
 texture_filter = 1
 position = Vector2(536, 205)
 texture = ExtResource("3_g4vkf")
 
 [node name="QuestionMarkBlock5" type="Sprite2D" parent="CameraTestEnvironment"]
-y_sort_enabled = true
 texture_filter = 1
 position = Vector2(547, 176)
 texture = ExtResource("3_g4vkf")
 
 [node name="QuestionMarkBlock6" type="Sprite2D" parent="CameraTestEnvironment"]
-y_sort_enabled = true
 texture_filter = 1
 position = Vector2(127, 272)
 texture = ExtResource("3_g4vkf")
 
 [node name="QuestionMarkBlock7" type="Sprite2D" parent="CameraTestEnvironment"]
-y_sort_enabled = true
 texture_filter = 1
 position = Vector2(80, 213)
 texture = ExtResource("3_g4vkf")
 
 [node name="QuestionMarkBlock8" type="Sprite2D" parent="CameraTestEnvironment"]
-y_sort_enabled = true
 texture_filter = 1
 position = Vector2(56, 253)
 texture = ExtResource("3_g4vkf")
 
 [node name="QuestionMarkBlock9" type="Sprite2D" parent="CameraTestEnvironment"]
-y_sort_enabled = true
 texture_filter = 1
 position = Vector2(280, -117)
 texture = ExtResource("3_g4vkf")
 
 [node name="QuestionMarkBlock10" type="Sprite2D" parent="CameraTestEnvironment"]
-y_sort_enabled = true
 texture_filter = 1
 position = Vector2(308, -116)
 texture = ExtResource("3_g4vkf")
 
 [node name="QuestionMarkBlock11" type="Sprite2D" parent="CameraTestEnvironment"]
-y_sort_enabled = true
 texture_filter = 1
 position = Vector2(348, -124)
 texture = ExtResource("3_g4vkf")
 
 [node name="QuestionMarkBlock12" type="Sprite2D" parent="CameraTestEnvironment"]
-y_sort_enabled = true
 texture_filter = 1
 position = Vector2(393, -103)
 texture = ExtResource("3_g4vkf")
 
 [node name="QuestionMarkBlock13" type="Sprite2D" parent="CameraTestEnvironment"]
-y_sort_enabled = true
 texture_filter = 1
 position = Vector2(192, 424)
 texture = ExtResource("3_g4vkf")
 
 [node name="QuestionMarkBlock14" type="Sprite2D" parent="CameraTestEnvironment"]
-y_sort_enabled = true
 texture_filter = 1
 position = Vector2(193, 450)
 texture = ExtResource("3_g4vkf")
 
 [node name="QuestionMarkBlock15" type="Sprite2D" parent="CameraTestEnvironment"]
-y_sort_enabled = true
 texture_filter = 1
 position = Vector2(196, 479)
 texture = ExtResource("3_g4vkf")
 
 [node name="QuestionMarkBlock16" type="Sprite2D" parent="CameraTestEnvironment"]
-y_sort_enabled = true
 texture_filter = 1
 position = Vector2(196, 506)
 texture = ExtResource("3_g4vkf")
 
 [node name="QuestionMarkBlock17" type="Sprite2D" parent="CameraTestEnvironment"]
-y_sort_enabled = true
 texture_filter = 1
 position = Vector2(196, 539)
 texture = ExtResource("3_g4vkf")
 
 [node name="QuestionMarkBlock18" type="Sprite2D" parent="CameraTestEnvironment"]
-y_sort_enabled = true
 texture_filter = 1
 position = Vector2(196, 566)
 texture = ExtResource("3_g4vkf")
 
 [node name="QuestionMarkBlock19" type="Sprite2D" parent="CameraTestEnvironment"]
-y_sort_enabled = true
 texture_filter = 1
 position = Vector2(162, 528)
 texture = ExtResource("3_g4vkf")
 
 [node name="QuestionMarkBlock20" type="Sprite2D" parent="CameraTestEnvironment"]
-y_sort_enabled = true
 texture_filter = 1
 position = Vector2(140, 500)
 texture = ExtResource("3_g4vkf")
 
 [node name="QuestionMarkBlock21" type="Sprite2D" parent="CameraTestEnvironment"]
-y_sort_enabled = true
 texture_filter = 1
 position = Vector2(214, 537)
 texture = ExtResource("3_g4vkf")
 
 [node name="QuestionMarkBlock22" type="Sprite2D" parent="CameraTestEnvironment"]
-y_sort_enabled = true
 texture_filter = 1
 position = Vector2(238, 519)
 texture = ExtResource("3_g4vkf")
 
 [node name="QuestionMarkBlock23" type="Sprite2D" parent="CameraTestEnvironment"]
-y_sort_enabled = true
 texture_filter = 1
 position = Vector2(259, 489)
 texture = ExtResource("3_g4vkf")
 
 [node name="QuestionMarkBlock24" type="Sprite2D" parent="CameraTestEnvironment"]
-y_sort_enabled = true
 texture_filter = 1
 position = Vector2(152, -261)
 texture = ExtResource("3_g4vkf")
 
 [node name="QuestionMarkBlock25" type="Sprite2D" parent="CameraTestEnvironment"]
-y_sort_enabled = true
 texture_filter = 1
 position = Vector2(134, -246)
 texture = ExtResource("3_g4vkf")
 
 [node name="QuestionMarkBlock26" type="Sprite2D" parent="CameraTestEnvironment"]
-y_sort_enabled = true
 texture_filter = 1
 position = Vector2(171, -246)
 texture = ExtResource("3_g4vkf")
 
 [node name="QuestionMarkBlock27" type="Sprite2D" parent="CameraTestEnvironment"]
-y_sort_enabled = true
 texture_filter = 1
 position = Vector2(151, -228)
 texture = ExtResource("3_g4vkf")
