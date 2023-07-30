@@ -10,7 +10,7 @@ This project is open to anyone in the Melty Sluice Discord server!
 
 Ask me to add you as a contributer to the repository and submit a PR!
 
-If you're not comfortable with Git, work in a separate scene and upload the scene to the Discord thread. A programmer will bring it into the project when they get around to it.
+If you're not comfortable with Git, work in a separate scene, then upload that scene and any associated resources in a ZIP archive to the Discord thread. A programmer will bring it into the project when they get around to it.
 
 
 ### Graphics
