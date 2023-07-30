@@ -1,1 +1,56 @@
-Loni - player.png
+resource: music/building_1.ogg
+author: nghugh
+discord link: https://discord.com/channels/664708967351582720/1132882687489757294/1133534673042149499
+intake notes: re-rendered to 256kbps ogg from project file
+original filename: building_1.mp3
+
+resource: music/water_1.ogg
+author: nghugh
+discord link: https://discord.com/channels/664708967351582720/1132882687489757294/1133437459942879306
+intake notes: re-rendered to 256kbps ogg from project file
+original filename: water_1.mp3
+
+resource: music/game_intro.ogg
+author: JamJammy
+author notes: Potentially for the mini-game system
+discord link: https://discord.com/channels/664708967351582720/1132882687489757294/1133983867238363186
+intake notes: converted to 256kbps ogg with ffmpeg
+original filename: intro.wav
+
+resource: music/game_select.ogg
+author: JamJammy
+author notes: Potentially for the mini-game system
+discord link: https://discord.com/channels/664708967351582720/1132882687489757294/1133983867238363186
+intake notes: converted to 256kbps ogg with ffmpeg
+original filename: Select.wav
+
+resource: music/garden_1.ogg
+author: nghugh
+discord link: https://discord.com/channels/664708967351582720/1132882687489757294/1135255480126681108
+intake notes: re-rendered to 256kbps ogg from project file
+original filename: garden_1_2.mp3
+
+resource: music/idle.ogg
+author: JamJammy
+author notes: simple world bgm
+discord link: https://discord.com/channels/664708967351582720/1132882687489757294/1133790469403463680
+intake notes: converted to 256kbps ogg with ffmpeg
+original filename: Idle.wav
+
+resource: music/shrine_bad_karma.ogg
+author: nghugh
+discord link: https://discord.com/channels/664708967351582720/1132882687489757294/1133920995183443978
+intake notes: re-rendered to 256kbps ogg from project file
+original filename: shrine_bad_karma.mp3
+
+resource: music/shrine_good_karma.ogg
+author: nghugh
+discord link: https://discord.com/channels/664708967351582720/1132882687489757294/1133921019145506907
+intake notes: re-rendered to 256kbps ogg from project file
+original filename: shrine_good_karma.mp3
+
+resource: textures/player.png
+author: Loni
+discord link: https://discord.com/channels/664708967351582720/1132882687489757294/1133214798532845609
+original filename: bruce_v2.png
+intake notes: edited a frame from upward walk, rearranged frames for CharacterSpritesheetAnimator script
