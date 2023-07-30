@@ -20,7 +20,7 @@ Upload a PNG of your graphic to the Discord thread! A programmer will bring it i
 
 ### Audio
 
-Upload a WAV of your song to the Discord thread (OGG also fine for music but not for sound effects). A programmer will bring it into the project when they get around to it.
+Upload a WAV of your song to the Discord thread (256kbps OGG also fine for music but not for sound effects). A programmer will bring it into the project when they get around to it.
 
 
 
