@@ -17,11 +17,12 @@ func _ready():
 
 
 func _process(delta):
+	if not is_moving:
+		return
 	time_to_next_frame -= delta
 	if time_to_next_frame <= 0.0:
-		if is_moving:
-			current_vframe = (current_vframe + 1) % 4
-			update_frame()
+		current_vframe = (current_vframe + 1) % 4
+		update_frame()
 		time_to_next_frame += animation_speed
 
 
