@@ -35,8 +35,21 @@ Upload a WAV of your song to the Discord thread (256kbps OGG also fine for music
 
 ### Character Spritesheets
 
-These should be in PNG format. They should also be a 3 by 4 sheet with every frame the same size, and the order of the frames must match the sheet below.
+Specifications:
+- PNG format
+- 3 columns and 4 rows of frames
+- Every frame should be the same size, but that size is arbitrary
+- The order of frames must match the sheet below
+  - Each row is the character walking in a different direction
+  - The frames will be played back in the order 1, 2, 3, 2 in a loop
+  - The middle frame (2) is shown when the character is standing still
+- The top row faces right
+- The 2nd row faces up
+- The 3rd row faces left
+- The 4th row faces down
+- The spritesheet should have a transparent background
+  - The background of the example is opaque but that's just for readability
+- Don't stretch your spritesheet for chunkier pixels - this is done in Godot
+  - The example is stretched but that's just for readability
 
-![example character spritesheet](textures/player.png)
-
-Each row is the character walking in a different direction, and the middle frame of each row is the character standing when facing that direction.
+![example character spritesheet](README_example_spritesheet.png)
