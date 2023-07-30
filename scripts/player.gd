@@ -7,26 +7,7 @@ class_name Player
 
 
 func _physics_process(delta):
-	var direction = Input.get_vector('move_left', 'move_right', 'move_up', 'move_down')
-	velocity = direction * speed
+	var move_input_vector = Input.get_vector('move_left', 'move_right', 'move_up', 'move_down')
+	velocity = move_input_vector * speed
 	move_and_slide()
-	update_sprite(direction)
-
-
-func update_sprite(direction):
-	if direction.x == 0 and direction.y == 0:
-		sprite.set_is_moving(false)
-		sprite.update_frame()
-		return
-
-	if direction.y > 0:
-		sprite.set_facing(270)
-	elif direction.x > 0:
-		sprite.set_facing(0)
-	elif direction.x < 0:
-		sprite.set_facing(180)
-	else:	# direction.y < 0
-		sprite.set_facing(90)
-
-	sprite.set_is_moving(true)
-	sprite.update_frame()
+	sprite.update_with_move_input_vector(move_input_vector)

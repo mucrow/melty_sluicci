@@ -32,6 +32,25 @@ func update_frame():
 		self.frame = base_frame + current_vframe
 
 
+func update_with_move_input_vector(move_input_vector):
+	if move_input_vector.x == 0 and move_input_vector.y == 0:
+		set_is_moving(false)
+		update_frame()
+		return
+
+	if move_input_vector.y > 0:
+		set_facing(270)
+	elif move_input_vector.x > 0:
+		set_facing(0)
+	elif move_input_vector.x < 0:
+		set_facing(180)
+	else:	# move_input_vector.y < 0
+		set_facing(90)
+
+	set_is_moving(true)
+	update_frame()
+
+
 func set_is_moving(is_moving):
 	if self.is_moving == is_moving:
 		return
