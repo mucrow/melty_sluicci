@@ -1,0 +1,193 @@
+[gd_scene load_steps=6 format=3 uid="uid://dakx8j0n661uh"]
+
+[ext_resource type="Texture2D" uid="uid://vq60bmj8c1f1" path="res://textures/player.png" id="1_6askw"]
+[ext_resource type="Script" path="res://scripts/player.gd" id="1_mueb2"]
+[ext_resource type="Texture2D" uid="uid://d2fxg0cblwbgi" path="res://textures/question_mark_block.png" id="3_g4vkf"]
+[ext_resource type="Script" path="res://scripts/character_spritesheet_animator.gd" id="3_tk3vc"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_drseg"]
+
+[node name="Gameplay" type="Node2D"]
+
+[node name="Player" type="CharacterBody2D" parent="."]
+y_sort_enabled = true
+position = Vector2(309, 106)
+script = ExtResource("1_mueb2")
+
+[node name="Camera2D" type="Camera2D" parent="Player"]
+zoom = Vector2(3, 3)
+
+[node name="Sprite2D" type="Sprite2D" parent="Player"]
+texture_filter = 1
+texture = ExtResource("1_6askw")
+hframes = 3
+vframes = 4
+frame = 7
+script = ExtResource("3_tk3vc")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Player"]
+shape = SubResource("RectangleShape2D_drseg")
+
+[node name="CameraTestEnvironment" type="Node2D" parent="."]
+
+[node name="QuestionMarkBlock" type="Sprite2D" parent="CameraTestEnvironment"]
+y_sort_enabled = true
+texture_filter = 1
+position = Vector2(171, 53)
+texture = ExtResource("3_g4vkf")
+
+[node name="QuestionMarkBlock2" type="Sprite2D" parent="CameraTestEnvironment"]
+y_sort_enabled = true
+texture_filter = 1
+position = Vector2(434, 22)
+texture = ExtResource("3_g4vkf")
+
+[node name="QuestionMarkBlock3" type="Sprite2D" parent="CameraTestEnvironment"]
+y_sort_enabled = true
+texture_filter = 1
+position = Vector2(561, 204)
+texture = ExtResource("3_g4vkf")
+
+[node name="QuestionMarkBlock4" type="Sprite2D" parent="CameraTestEnvironment"]
+y_sort_enabled = true
+texture_filter = 1
+position = Vector2(536, 205)
+texture = ExtResource("3_g4vkf")
+
+[node name="QuestionMarkBlock5" type="Sprite2D" parent="CameraTestEnvironment"]
+y_sort_enabled = true
+texture_filter = 1
+position = Vector2(547, 176)
+texture = ExtResource("3_g4vkf")
+
+[node name="QuestionMarkBlock6" type="Sprite2D" parent="CameraTestEnvironment"]
+y_sort_enabled = true
+texture_filter = 1
+position = Vector2(127, 272)
+texture = ExtResource("3_g4vkf")
+
+[node name="QuestionMarkBlock7" type="Sprite2D" parent="CameraTestEnvironment"]
+y_sort_enabled = true
+texture_filter = 1
+position = Vector2(80, 213)
+texture = ExtResource("3_g4vkf")
+
+[node name="QuestionMarkBlock8" type="Sprite2D" parent="CameraTestEnvironment"]
+y_sort_enabled = true
+texture_filter = 1
+position = Vector2(56, 253)
+texture = ExtResource("3_g4vkf")
+
+[node name="QuestionMarkBlock9" type="Sprite2D" parent="CameraTestEnvironment"]
+y_sort_enabled = true
+texture_filter = 1
+position = Vector2(280, -117)
+texture = ExtResource("3_g4vkf")
+
+[node name="QuestionMarkBlock10" type="Sprite2D" parent="CameraTestEnvironment"]
+y_sort_enabled = true
+texture_filter = 1
+position = Vector2(308, -116)
+texture = ExtResource("3_g4vkf")
+
+[node name="QuestionMarkBlock11" type="Sprite2D" parent="CameraTestEnvironment"]
+y_sort_enabled = true
+texture_filter = 1
+position = Vector2(348, -124)
+texture = ExtResource("3_g4vkf")
+
+[node name="QuestionMarkBlock12" type="Sprite2D" parent="CameraTestEnvironment"]
+y_sort_enabled = true
+texture_filter = 1
+position = Vector2(393, -103)
+texture = ExtResource("3_g4vkf")
+
+[node name="QuestionMarkBlock13" type="Sprite2D" parent="CameraTestEnvironment"]
+y_sort_enabled = true
+texture_filter = 1
+position = Vector2(192, 424)
+texture = ExtResource("3_g4vkf")
+
+[node name="QuestionMarkBlock14" type="Sprite2D" parent="CameraTestEnvironment"]
+y_sort_enabled = true
+texture_filter = 1
+position = Vector2(193, 450)
+texture = ExtResource("3_g4vkf")
+
+[node name="QuestionMarkBlock15" type="Sprite2D" parent="CameraTestEnvironment"]
+y_sort_enabled = true
+texture_filter = 1
+position = Vector2(196, 479)
+texture = ExtResource("3_g4vkf")
+
+[node name="QuestionMarkBlock16" type="Sprite2D" parent="CameraTestEnvironment"]
+y_sort_enabled = true
+texture_filter = 1
+position = Vector2(196, 506)
+texture = ExtResource("3_g4vkf")
+
+[node name="QuestionMarkBlock17" type="Sprite2D" parent="CameraTestEnvironment"]
+y_sort_enabled = true
+texture_filter = 1
+position = Vector2(196, 539)
+texture = ExtResource("3_g4vkf")
+
+[node name="QuestionMarkBlock18" type="Sprite2D" parent="CameraTestEnvironment"]
+y_sort_enabled = true
+texture_filter = 1
+position = Vector2(196, 566)
+texture = ExtResource("3_g4vkf")
+
+[node name="QuestionMarkBlock19" type="Sprite2D" parent="CameraTestEnvironment"]
+y_sort_enabled = true
+texture_filter = 1
+position = Vector2(162, 528)
+texture = ExtResource("3_g4vkf")
+
+[node name="QuestionMarkBlock20" type="Sprite2D" parent="CameraTestEnvironment"]
+y_sort_enabled = true
+texture_filter = 1
+position = Vector2(140, 500)
+texture = ExtResource("3_g4vkf")
+
+[node name="QuestionMarkBlock21" type="Sprite2D" parent="CameraTestEnvironment"]
+y_sort_enabled = true
+texture_filter = 1
+position = Vector2(214, 537)
+texture = ExtResource("3_g4vkf")
+
+[node name="QuestionMarkBlock22" type="Sprite2D" parent="CameraTestEnvironment"]
+y_sort_enabled = true
+texture_filter = 1
+position = Vector2(238, 519)
+texture = ExtResource("3_g4vkf")
+
+[node name="QuestionMarkBlock23" type="Sprite2D" parent="CameraTestEnvironment"]
+y_sort_enabled = true
+texture_filter = 1
+position = Vector2(259, 489)
+texture = ExtResource("3_g4vkf")
+
+[node name="QuestionMarkBlock24" type="Sprite2D" parent="CameraTestEnvironment"]
+y_sort_enabled = true
+texture_filter = 1
+position = Vector2(152, -261)
+texture = ExtResource("3_g4vkf")
+
+[node name="QuestionMarkBlock25" type="Sprite2D" parent="CameraTestEnvironment"]
+y_sort_enabled = true
+texture_filter = 1
+position = Vector2(134, -246)
+texture = ExtResource("3_g4vkf")
+
+[node name="QuestionMarkBlock26" type="Sprite2D" parent="CameraTestEnvironment"]
+y_sort_enabled = true
+texture_filter = 1
+position = Vector2(171, -246)
+texture = ExtResource("3_g4vkf")
+
+[node name="QuestionMarkBlock27" type="Sprite2D" parent="CameraTestEnvironment"]
+y_sort_enabled = true
+texture_filter = 1
+position = Vector2(151, -228)
+texture = ExtResource("3_g4vkf")
