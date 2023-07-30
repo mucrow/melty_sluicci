@@ -46,7 +46,7 @@ Specifications:
 - The top row faces right
 - The 2nd row faces up
 - The 3rd row faces left
-- The 4th row faces down
+- The bottom row faces down
 - The spritesheet should have a transparent background
   - The background of the example is opaque but that's just for readability
 - Don't stretch your spritesheet for chunkier pixels - this is done in Godot
